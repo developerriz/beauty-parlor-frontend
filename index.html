@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty Parlor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-pink-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <h1 class="text-2xl font-bold text-pink-600">Glamour Beauty</h1>
+          <div class="space-x-6">
+            <a href="#" class="text-gray-700 hover:text-pink-600">Home</a>
+            <a href="#" class="text-gray-700 hover:text-pink-600">Services</a>
+            <a href="#" class="text-gray-700 hover:text-pink-600">Gallery</a>
+            <a href="#" class="text-gray-700 hover:text-pink-600">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div
+      class="relative h-[90vh] bg-cover bg-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
+      "
+    >
+      <div
+        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+      >
+        <div class="text-center">
+          <h2 class="text-4xl font-bold text-white mb-4 font-montserrat">
+            Welcome to Glamour Beauty
+          </h2>
+          <p class="text-xl text-white mb-8 font-montserrat">
+            Experience the luxury of professional beauty care
+          </p>
+          <button
+            class="bg-pink-600 text-white px-8 py-3 rounded-full hover:bg-pink-700 font-montserrat"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="max-w-6xl mx-auto py-16 px-4">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+        Our Services
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-pink-600 mb-4">Hair Styling</h3>
+          <p class="text-gray-600">
+            Professional hair cutting, coloring, and styling services.
+          </p>
+          <p class="text-pink-600 font-bold mt-4">From $50</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-pink-600 mb-4">
+            Facial Treatment
+          </h3>
+          <p class="text-gray-600">
+            Rejuvenating facials and skin care treatments.
+          </p>
+          <p class="text-pink-600 font-bold mt-4">From $75</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-pink-600 mb-4">Nail Care</h3>
+          <p class="text-gray-600">
+            Manicure and pedicure services with premium products.
+          </p>
+          <p class="text-pink-600 font-bold mt-4">From $35</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="bg-pink-100 py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">
+          Book an Appointment
+        </h2>
+        <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-8">
+          <form class="space-y-4">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-600"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-600"
+            />
+            <select
+              class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-600"
+            >
+              <option>Select Service</option>
+              <option>Hair Styling</option>
+              <option>Facial Treatment</option>
+              <option>Nail Care</option>
+            </select>
+            <button
+              class="w-full bg-pink-600 text-white py-2 rounded-lg hover:bg-pink-700"
+            >
+              Book Appointment
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Glamour Beauty</h3>
+            <p class="text-gray-400">
+              Providing luxury beauty services since 2010. Your beauty and
+              satisfaction are our top priorities.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Contact Info</h3>
+            <p class="text-gray-400">123 Beauty Street</p>
+            <p class="text-gray-400">New York, NY 10001</p>
+            <p class="text-gray-400">Phone: (555) 123-4567</p>
+            <p class="text-gray-400">Email: info@glamourbeauty.com</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Hours</h3>
+            <p class="text-gray-400">Monday - Friday: 9am - 8pm</p>
+            <p class="text-gray-400">Saturday: 9am - 6pm</p>
+            <p class="text-gray-400">Sunday: 10am - 5pm</p>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p class="text-gray-400">
+            &copy; 2024 Glamour Beauty. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
